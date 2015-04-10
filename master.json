@@ -5,21 +5,21 @@
             , "date": "April 2, 2015"
             , "title": "API v2 Officially Leaves Beta"
             , "img": "https://www.digitalocean.com/company/blog/apiv2-leaves-beta/apiv2-58f23756.png"
-            , "summary": "Pootwattle's ambitious survey of the relationship between the eroticization of the unknown and the assertion of (self)referentiality testifies to his considerable perspicuity."
+            , "summary": "We are very pleased to announce that API v2 is coming out of beta, nine months after its initial release. With this release we wanted to introduce new features not available in v1, while maintaining the level of simplicity developers loved in our first version. To help us keep it simple and stomp out bugs, we called on the community to collaborate with us in a public GitHub repository. The last nine months of collaboration with the community ensured our API remained awesome as we added these new features."
         }
         , {
               "id": "give-10-get-25-referral-program"
             , "date": "April 1, 2015"
             , "title": "Atlantis - Our First Underwater Datacenter"
             , "img": "https://www.digitalocean.com/company/blog/announcing-atlantis/atlantis-6c67b55f.jpg"
-            , "summary": "We're very excited to be announcing a new region: Atlantis Datacenter Abbreviation: H2O, submerged in the Straits of Gibraltar. This underwater datacenter will provide unparalleled connectivity to the surrounding countries like Spain Portugal Morocco Algeria and Tunisia."
+            , "summary": "We're very excited to be announcing a new region: Atlantis (Datacenter Abbreviation: H2O), submerged in the Straits of Gibraltar. This underwater datacenter will provide unparalleled connectivity to the surrounding countries like Spain, Portugal, Morocco, Algeria, and Tunisia."
         }
         , {
               "id": "give-10-get-25-referral-program"
             , "date": "February 20, 2015"
             , "title": "Taming Your Go Dependencies"
             , "img": "https://www.digitalocean.com/company/blog/taming-your-go-dependencies/gophers-bd494775.png"
-            , "summary": "Pootwattle's tenacious reiteration of his earlier position on the relationship between the reintegration of the hidden and the historicization of early modern textuality is a crucial contribution to the field."
+            , "summary": "Internally at DigitalOcean, we had an issue brewing in our Go code bases. Separate projects were developed in separate Git repositories, and in order to minimize the fallout from upgraded dependencies, we mirrored all dependencies locally in individual Git repositories. These projects relied on various versions of packages, and the problem was that there was no deterministic way to distinguish which project required what and when."
         }
     ]
 }
