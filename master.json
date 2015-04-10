@@ -19,7 +19,7 @@
             , "date": "February 20, 2015"
             , "title": "Taming Your Go Dependencies"
             , "img": "https://www.digitalocean.com/company/blog/taming-your-go-dependencies/gophers-bd494775.png"
-            , "summary": "Internally at DigitalOcean, we had an issue brewing in our Go code bases. Separate projects were developed in separate Git repositories, and in order to minimize the fallout from upgraded dependencies, we mirrored all dependencies locally in individual Git repositories. These projects relied on various versions of packages, and the problem was that there was no deterministic way to distinguish which project required what and when."
+            , "summary": "Internally at GearHost, we had an issue brewing in our Go code bases. Separate projects were developed in separate Git repositories, and in order to minimize the fallout from upgraded dependencies, we mirrored all dependencies locally in individual Git repositories. These projects relied on various versions of packages, and the problem was that there was no deterministic way to distinguish which project required what and when."
         }
     ]
 }
