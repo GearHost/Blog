@@ -21,6 +21,7 @@ This will contain all the source code we used to build the GearHost blog.
 
 So the next step is to get the markdown file from GitHub then parse it. Using the [GitHub API](https://developer.github.com/v3/) we can download the markdown directly. We built a GitHubHelper class that facilitates this and other functions. Anyway here are some simple bits on how we did it:
 
+```C#
 	public static string ParseMarkDownToHtml(string markDown)
 	{
 		string url = "https://api.github.com/markdown";
@@ -38,6 +39,7 @@ So the next step is to get the markdown file from GitHub then parse it. Using th
 			return result;
 		}
 	}
+```
 
 That's basically it, really simple stuff but effective. Enjoy and we'll upload the project to the public repo shortly.
 
