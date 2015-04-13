@@ -1,3 +1,5 @@
+#Making a Homegrown Blog
+
 At GearHost things are moving faster than ever. To help keep in touch with you and be more transparent we've built this pretty simply yet snazzy blog to help. Building a blog is easy or so we thought. Here's a little journey of how we're leveraging some .NET code and [GitHub](https://github.com/) to create the official GearHost blog. Here's how.
 
 Yeah everyone has a blog but we wanted something more simple so we looked initially to [Ghost](https://ghost.org/) which BTW is a great blogging platform. In fact you can [one click install it on a CloudSite for free](https://my.gearhost.com/account/signup) if you haven't tried it already. However as great as Ghost is we wanted something more simple. Plus we've got to keep our developers employed so we set them off to make a little magic.
