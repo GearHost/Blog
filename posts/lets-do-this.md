@@ -21,23 +21,23 @@ This will contain all the source code we used to build the GearHost blog.
 
 So the next step is to get the markdown file from GitHub then parse it. Using the [GitHub API](https://developer.github.com/v3/) we can download the markdown directly. We built a GitHubHelper class that facilitates this and other functions. Anyway here are some simple bits on how we did it:
 
-		public static string ParseMarkDownToHtml(string markDown)
-        {
-            string url = "https://api.github.com/markdown";
-            var data = new Dictionary<string, string>();
-            data.Add("text", markDown);
-            data.Add("mode", "markdown");
-            data.Add("context", "publicrepo/path");
-            var stringData = new JavaScriptSerializer().Serialize(data);
+	public static string ParseMarkDownToHtml(string markDown)
+	{
+		string url = "https://api.github.com/markdown";
+		var data = new Dictionary<string, string>();
+		data.Add("text", markDown);
+		data.Add("mode", "markdown");
+		data.Add("context", "publicrepo/path");
+		var stringData = new JavaScriptSerializer().Serialize(data);
 
-            using (var webClient = new WebClient())
-            {
-                webClient.Headers.Add("User-Agent", "username");
-                webClient.Headers.Add("Authorization", "Basic " + Convert.ToBase64String(new ASCIIEncoding().GetBytes("username:password")));
-                var result = webClient.UploadString(url, "POST", stringData);
-                return result;
-            }
-        }
+		using (var webClient = new WebClient())
+		{
+			webClient.Headers.Add("User-Agent", "username");
+			webClient.Headers.Add("Authorization", "Basic " + Convert.ToBase64String(new ASCIIEncoding().GetBytes("username:password")));
+			var result = webClient.UploadString(url, "POST", stringData);
+			return result;
+		}
+	}
 
 That's basically it, really simple stuff but effective. Enjoy and we'll upload the project to the public repo shortly.
 
