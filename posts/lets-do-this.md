@@ -1,8 +1,8 @@
-At GearHost things are moving faster than ever. To help keep in touch with you and be more transparent we've built this pretty simply yet snazzy blog to help. Building a blog is easy or so we thought. Here's a little journey of how we're leveraging some .NET code and GitHub to create the GearHost blog.
+At GearHost things are moving faster than ever. To help keep in touch with you and be more transparent we've built this pretty simply yet snazzy blog to help. Building a blog is easy or so we thought. Here's a little journey of how we're leveraging some .NET code and [GitHub](https://github.com/) to create the official GearHost blog.
 
-Yeah everyone has a blog but we wanted something more simple so we looked initially to Ghost which BTW is a great blogging platform. In fact you can one click install it on a CloudSite for free if you haven't tried it already. However as great as Ghost is we wanted something more simple. Plus we've got to keep our developers employed so we set them off.
+Yeah everyone has a blog but we wanted something more simple so we looked initially to [Ghost](https://ghost.org/) which BTW is a great blogging platform. In fact you can [one click install it on a CloudSite for free](https://my.gearhost.com/account/signup) if you haven't tried it already. However as great as Ghost is we wanted something more simple. Plus we've got to keep our developers employed so we set them off to make a little magic.
 
-We've decided to use GitHub to store the files and soon the project which you will be able to clone. I'm using a simple folder structure to keep the files organized.
+We've decided to use a [public GitHub repo](https://github.com/GearHost/blog) for multiple reasons but mainly why not, it's cool. It stores the markdown and graphics and the folder structure is pretty simple.
 
 ###\master.json
 This base file contains all the metadata for all articles that we display in JSON. It contains items such as the id, date, title, summary, author, etc.
@@ -12,14 +12,14 @@ This contains all the blog posts formatted as markdown files with a .md extensio
 
 * **Post filenames:** Are formatted by the post name, such as *lets-do-this*. We use all lowercase letters and dashes (-) to separate the words.
 
-* **media subfolders:** The \posts folder contains the \media folder, inside which are subfolders with the images for each article including the header graphic. The post image folders are name identically to the article file, minus the *.md* file extension.
+* **Media subfolders:** The \posts folder contains the \media folder, inside which are subfolders with the images for each article including the header graphic. The post image folders are name identically to the article file, minus the *.md* file extension.
 
 ###\project
 This will contain all the source code we used to build the GearHost blog.
 
-###Parsing Markdown to HTML
+###Parsing GitHub markdown to HTML
 
-So the next step is to get the raw markdown file from GitHub the parse it. We built a GitHubHelper class that facilitates this and other functions. Anyway this is how we did it:
+So the next step is to get the markdown file from GitHub then parse it. Using the [GitHub API](https://developer.github.com/v3/) we can download the markdown directly. We built a GitHubHelper class that facilitates this and other functions. Anyway here are some simple bits on how we did it:
 
 		public static string ParseMarkDownToHtml(string markDown)
         {
