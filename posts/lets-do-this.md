@@ -1,0 +1,44 @@
+At GearHost things are moving faster than ever. To help keep in touch with you and be more transparent we've built this pretty simply yet snazzy blog to help. Building a blog is easy or so we thought. Here's a little journey of how we're leveraging some .NET code and GitHub to create the GearHost blog.
+
+Yeah everyone has a blog but we wanted something more simple so we looked initially to Ghost which BTW is a great blogging platform. In fact you can one click install it on a CloudSite for free if you haven't tried it already. However as great as Ghost is we wanted something more simple. Plus we've got to keep our developers employed so we set them off.
+
+We've decided to use GitHub to store the files and soon the project which you will be able to clone. I'm using a simple folder structure to keep the files organized.
+
+###\master.json
+This base file contains all the metadata for all articles that we display in JSON. It contains items such as the id, date, title, summary, author, etc.
+
+###\posts
+This contains all the blog posts formatted as markdown files with a .md extension. Posts are published to GearHost in the path https://www.gearhost.com/company/blog/{article-name-without-md}.
+
+* **Post filenames:** Are formatted by the post name, such as *lets-do-this*. We use all lowercase letters and dashes (-) to separate the words.
+
+* **media subfolders:** The \posts folder contains the \media folder, inside which are subfolders with the images for each article including the header graphic. The post image folders are name identically to the article file, minus the *.md* file extension.
+
+###\project
+This will contain all the source code we used to build the GearHost blog.
+
+###Parsing Markdown to HTML
+
+So the next step is to get the raw markdown file from GitHub the parse it. We built a GitHubHelper class that facilitates this and other functions. Anyway this is how we did it:
+
+		public static string ParseMarkDownToHtml(string markDown)
+        {
+            string url = "https://api.github.com/markdown";
+            var data = new Dictionary<string, string>();
+            data.Add("text", markDown);
+            data.Add("mode", "markdown");
+            data.Add("context", "publicrepo/path");
+            var stringData = new JavaScriptSerializer().Serialize(data);
+
+            using (var webClient = new WebClient())
+            {
+                webClient.Headers.Add("User-Agent", "username");
+                webClient.Headers.Add("Authorization", "Basic " + Convert.ToBase64String(new ASCIIEncoding().GetBytes("username:password")));
+                var result = webClient.UploadString(url, "POST", stringData);
+                return result;
+            }
+        }
+
+That's basically it, really simple stuff but effective. Enjoy and we'll upload the project to the public repo shortly.
+
+> Something to keep in mind is GitHub does rate limit requests however there are several ways to mitigate this per GitHub. Even these can't help blogs with a lot of requests so we've implemented caching techniques to keep the data in memory.
