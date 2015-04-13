@@ -37,8 +37,7 @@ So the next step is to get the markdown file from GitHub then parse it. Using th
 		{
 			webClient.Headers.Add("User-Agent", "username");
 			webClient.Headers.Add("Authorization", "Basic " + Convert.ToBase64String(new ASCIIEncoding().GetBytes("username:password")));
-			var result = webClient.UploadString(url, "POST", stringData);
-			return result;
+			return webClient.UploadString(url, "POST", stringData);
 		}
 	}
 ```
