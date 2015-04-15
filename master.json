@@ -5,7 +5,7 @@
             , "date": "April 13, 2015"
             , "title": "Making a Homegrown Blog"
             , "img": "https://raw.githubusercontent.com/GearHost/blog/master/posts/media/making-a-homegrown-blog/header.png"
-            , "summary": "At GearHost things are moving faster than ever. To help keep in touch with you and be more transparent we've built this pretty simply yet snazzy blog to help. Building a blog is easy or so we thought. Here's a little journey of how we're leveraging some .NET code and GitHub to create the official GearHost blog. Here's how."
+            , "summary": "At GearHost things are moving faster than ever. In an effort to keep more in touch with you and keeping GearHost transparent we've built a pretty simply yet snazzy blog platform. Instead of writing our first blog post about it being just that, our first blog post (boring!), I figured it could be about how we build this blog platform (that's cool!)."
         }
     ]
 }
