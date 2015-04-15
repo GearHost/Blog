@@ -1,8 +1,17 @@
-At GearHost things are moving faster than ever. To help keep in touch with you and be more transparent we've built this pretty simply yet snazzy blog to help. Building a blog is easy or so we thought. Here's a little journey of how we're leveraging some .NET code and [GitHub](https://github.com/) to create the official GearHost blog. Here's how.
+At GearHost things are moving faster than ever. In an effort to keep more in touch with you and keeping GearHost transparent as a whole we've built a pretty simply yet snazzy blog platform. Instead of writing our first blog post about how we've released a blog (boring!) I figured our first blog would be about how we did it. After all we're talking to developers and designers here. So on that theme let's get started...
 
-Yeah everyone has a blog but we wanted something more simple so we looked initially to [Ghost](https://ghost.org/) which BTW is a great blogging platform. In fact you can [one click install it on a CloudSite for free](https://my.gearhost.com/account/signup) if you haven't tried it already. However as great as Ghost is we wanted something more simple. Plus we've got to keep our developers employed so we set them off to make a little magic.
+One of the main features of the new GearHost platform and GearHost as a whole is to make very complex and advanced systems extremely easy to use. Simple cloud hosting is what it's about. None of this complicated bull when all you want is rock solid hosting for your awesome app. With that in mind we started looking at blogging platforms. We looked at a few like Ghost, WordPress, DasBlog, BlogEngine.NET etc but didn't find anything we really fell in love with other than Ghost. It's simple and we like simple clean interfaces but the API is lacking so to the hell with it we said and we decided to build our own.
 
-We've decided to use a [public GitHub repo](https://github.com/GearHost/blog) for multiple reasons but mainly why not, it's cool. It stores the markdown and graphics and the folder structure is pretty simple.
+> BTW all those platforms I mentioned above can be one click installed on a CloudSite for free if you haven't tried already. Just signup for free and create a blog in seconds.
+
+###Getting Started
+We knew we wanted to use markdown for the blog posts so we needed to figure out a way to make collaboration easy between employees and even contributors from the community. We do this currently with our documentation leveraging GitHub and their API. Well that's easy, check.
+
+The next problem is graphics. We need our design team to put together blog post images that represent the discussion nicely so we proposed the idea and voila we've got ourselves some images. Check.
+
+Finally how do we put this whole thing together? We got with our developers and we set out a plan to put all the pieces together. This was fairly simple. As I mentioned we do this with our Documentation so it was more about fine tuning things. The only real big issue is GitHub's rate limit on requests. This post and more to come will get read by thousands of people so we need to make sure we don't run into a rate limit issue with GitHub. To solve that we implemented some caching. Pretty cool stuff.
+
+So let's take a look at the [GitHub repo](https://github.com/GearHost/blog) for this stuff. Here's our directory structure and some important files that make this work.
 
 ###\master.json
 This base file contains all the metadata for all articles that we display in JSON. It contains items such as the id, date, title, summary, author, etc.
@@ -15,10 +24,9 @@ This contains all the blog posts formatted as markdown files with a .md extensio
 * **Media subfolders:** The \posts folder contains the \media folder, inside which are subfolders with the images for each article including the header graphic. The post image folders are name identically to the article file, minus the *.md* file extension.
 
 ###\project
-This will contain all the source code we used to build the GearHost blog.
+This will contain all the source code we used to build the GearHost blog so you can make your own version as well.
 
 ###Parsing GitHub markdown to HTML
-
 So the next step is to get the markdown file from GitHub then parse it. Using the [GitHub API](https://developer.github.com/v3/) we can download the markdown directly. We built a GitHubHelper class that facilitates this and other functions. Anyway here are some simple bits on how we did it:
 
 ```C#
@@ -40,6 +48,4 @@ So the next step is to get the markdown file from GitHub then parse it. Using th
 	}
 ```
 
-That's basically it, really simple stuff but effective. Enjoy and we'll upload the project to the public repo shortly.
-
-> Something to keep in mind is GitHub does rate limit requests however there are several ways to mitigate this per GitHub. Even these can't help blogs with a lot of requests so we've implemented caching techniques to keep the data in memory.
+That's basically it, really simple stuff but effective. Enjoy and we'll upload the project to the public repo in the next few days.
