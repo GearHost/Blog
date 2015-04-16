@@ -50,4 +50,6 @@ So the next step is to get the markdown file from GitHub then parse it. Using th
 
 That's basically it, really simple stuff but effective. Enjoy and we'll upload the project to the public repo in the next few days.
 
+Oh and BTW this is our very first blog post. Ahhhh yeah.
+
 By: [Ryan Kekos](https://twitter.com/ryankekos)
