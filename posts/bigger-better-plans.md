@@ -1,0 +1,16 @@
+The GearHost team is happy to let you know we've "beefed" up all of our cloud hosting plans. They are now super cool, bigger, better, faster and now gluten free. Here's some cool details about the plan changes, how they came about and how it affects you!
+
+### Why the change?
+We haven't touched the plans much since our launch a little less than 5 months ago. We've made minor tweaks to the plans here and there but nothing major. This is because we've focused on the technology and launching new features weekly. Over the past few weeks however we've decided to give some much needed love to our plans and do some deep analysis of how the plans were being used. During this we found that the plans were not up to par based on the usage data we collected. So it was time to hit the whiteboard and figure this out.
+
+### Reworking CloudSite Free
+With the new launch of the GearHost platform we've always wanted a free cloud hosting plan for developers that they could use to develop applications on a live environment then scale them to production as needed. This process works great however there has always been one main restriction of not allowing custom domain names on the free tier and only allowing access via the preview URL (http://*applicationname*.gear.host). There are probably a few politically correct ways we can say it but let's be real. If you have a live working website with a domain that you needed top notch cloud hosting then, we felt at that time, you should pay for it, even if it's only $5 a month. Plain and simple. While nobody can really argue with that we wanted to offer something better. Something that would really help developers out who need to host small applications with a domain for friends, family, production, whatever. So we set out to make a change so as of Monday April 20th 2015 all free tier CloudSites can now have custom domain names, free of charge.
+
+### TANSTAAFL
+The expression ["There is no such thing as a free lunch"](http://en.wikipedia.org/wiki/There_ain%27t_no_such_thing_as_a_free_lunch) aka TANSTAAFL might be true but not when it comes to hosting. The free tier has and will always remain free. There is no advertising and we don't sell your data so how does GearHost make money on the free tier? It's simple, we don't. We offer this tier at a loss in hopes that one day you'll become a paid hosting customer as your application grows out of the free tier and needs to be upgraded to Standard or Reserved. When that time comes you can scale your application instantly with a single click and no downtime.
+
+### Anything else?
+We've upgraded all of the plans (Free, Standard and Reserved) to allow 600% more in allowed connections and 900% more in allowed threads. In fact the numbers now are so large for allowed connections and threads we removed them from the plan details as they no longer measured but in place to ensure application integrity on the worker nodes. We have increased processing and memory allocations by 200% as well across all plans.
+
+### Like the changes?
+Tell us about it via [Twitter](https://twitter.com/gearhost) or [Facebook](https://www.facebook.com/gearhost). We'd love to hear what you think!
