@@ -8,10 +8,10 @@
             , "summary": "At GearHost things are moving faster than ever. In an effort to keep more in touch with you and keeping GearHost transparent we've built a pretty simply yet snazzy blog platform. Instead of writing our first blog post about it being just that, our first blog post (boring!), I figured it could be about how we build this blog platform (that's cool!)."
         }
         , {
-              "id": "bigger-better-plans"
+              "id": "new-free-plan-released"
             , "date": "April 20, 2015"
-            , "title": "Bigger Better Plans"
-            , "img": "https://raw.githubusercontent.com/GearHost/blog/master/posts/media/bigger-better-plans/header.png"
+            , "title": "New Free Plan Released"
+            , "img": "https://raw.githubusercontent.com/GearHost/blog/master/posts/media/new-free-plan-released/header.png"
             , "summary": "The GearHost team is happy to let you know we've \"beefed\" up all of our cloud hosting plans. They are now super cool, bigger, better, faster and now gluten free. Here's some cool details about the plan changes, how they came about and how it affects you!"
             , "draft": true
         }
