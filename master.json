@@ -7,5 +7,13 @@
             , "img": "https://raw.githubusercontent.com/GearHost/blog/master/posts/media/making-a-homegrown-blog/header.png"
             , "summary": "At GearHost things are moving faster than ever. In an effort to keep more in touch with you and keeping GearHost transparent we've built a pretty simply yet snazzy blog platform. Instead of writing our first blog post about it being just that, our first blog post (boring!), I figured it could be about how we build this blog platform (that's cool!)."
         }
+        , {
+              "id": "test-post"
+            , "date": "April 21, 2015"
+            , "title": "Some Test Post"
+            , "img": "http://dasonlightinginc.com/uploads/2/9/4/2/2942625/4781952_orig.jpg"
+            , "summary": "This is test draf post."
+            , "draft": true
+        }
     ]
 }
