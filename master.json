@@ -1,19 +1,18 @@
 {
     "posts":[
         {
-              "id": "making-a-homegrown-blog"
-            , "date": "April 15, 2015"
-            , "title": "Making a Homegrown Blog"
-            , "img": "https://raw.githubusercontent.com/GearHost/blog/master/posts/media/making-a-homegrown-blog/header.png"
-            , "summary": "At GearHost things are moving faster than ever. In an effort to keep more in touch with you and keeping GearHost transparent we've built a pretty simply yet snazzy blog platform. Instead of writing our first blog post about it being just that, our first blog post (boring!), I figured it could be about how we build this blog platform (that's cool!)."
-        }
-        , {
-              "id": "new-free-plan-released"
-            , "date": "April 20, 2015"
+            "id": "new-free-plan-released"
+            , "date": "April 23, 2015"
             , "title": "New Free Plan Released"
             , "img": "https://raw.githubusercontent.com/GearHost/blog/master/posts/media/new-free-plan-released/header.png"
-            , "summary": "The GearHost team is happy to let you know we've \"beefed\" up all of our cloud hosting plans. They are now super cool, bigger, better, faster and now gluten free. Here's some cool details about the plan changes, how they came about and how it affects you!"
-            , "draft": true
+            , "summary": "We're happy to announce the release of our all new Free CloudSite plan. This plan boasts a ton of new features and improvements making it bigger, better, faster and also gluten free. But why the change? Let's get into the thought process behind that, how we designed the new plan, what it has to offer and how it affects you."
+        }
+        , {
+            "id": "making-a-homegrown-blog",
+            "date": "April 15, 2015",
+            "title": "Making a Homegrown Blog",
+            "img": "https://raw.githubusercontent.com/GearHost/blog/master/posts/media/making-a-homegrown-blog/header.png",
+            "summary": "At GearHost things are moving faster than ever. In an effort to keep more in touch with you and keeping GearHost transparent we've built a pretty simply yet snazzy blog platform. Instead of writing our first blog post about it being just that, our first blog post (boring!), I figured it could be about how we build this blog platform (that's cool!)."
         }
     ]
 }
