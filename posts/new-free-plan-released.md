@@ -1,16 +1,28 @@
-The GearHost team is happy to let you know we've "beefed" up all of our cloud hosting plans. They are now super cool, bigger, better, faster and now gluten free. Here's some cool details about the plan changes, how they came about and how it affects you!
+We're happy to announce the release of our all new Free CloudSite plan. This plan boasts a ton of new features, improvements making it bigger, better, faster and now gluten free. But why the change? Let's get into the thought process behind that, how we designed the new plan, what it has to offer and how it affects you.
 
 ### Why the change?
-We haven't touched the plans much since our launch a little less than 5 months ago. We've made minor tweaks to the plans here and there but nothing major. This is because we've focused on the technology and launching new features weekly. Over the past few weeks however we've decided to give some much needed love to our plans and do some deep analysis of how the plans were being used. During this we found that the plans were not up to par based on the usage data we collected. So it was time to hit the whiteboard and figure this out.
+For the past several weeks we have been running some data models to help us understand how customers have been using the all new GearHost. With the growth of 1,000+ new customers a month we have a good amount of data to look at and what we found was pretty interesting. In short we realized that while a lot of developers liked the free tier to develop their applications before going live in general customers wanted a lower cost solution to simple low resource sites. The free tier wouldn't work as it did not support custom domains so we grabbed some coke and potato chips and got to think'n.
 
-### Reworking CloudSite Free
-With the new launch of the GearHost platform we've always wanted a free cloud hosting plan for developers that they could use to develop applications on a live environment then scale them to production as needed. This process works great however there has always been one main restriction of not allowing custom domain names on the free tier and only allowing access via the preview URL (http://*applicationname*.gear.host). There are probably a few politically correct ways we can say it but let's be real. If you have a live working website with a domain that you needed top notch cloud hosting then, we felt at that time, you should pay for it, even if it's only $5 a month. Plain and simple. While nobody can really argue with that we wanted to offer something better. Something that would really help developers out who need to host small applications with a domain for friends, family, production, whatever. So we set out to make a change so as of Monday April 20th 2015 all free tier CloudSites can now have custom domain names, free of charge.
+### Out with the old
+We launched GearHost with a free tier originally to offer developers the ability to develop code on our platform for free before a site\application went live. That works well and we've seen a lot of people take advantage of this feature. We limited free to this because we though if you had an actual working application you should be paying for it. Right? Well yes and no.
 
-### TANSTAAFL
-The expression ["There is no such thing as a free lunch"](http://en.wikipedia.org/wiki/There_ain%27t_no_such_thing_as_a_free_lunch) aka TANSTAAFL might be true but not when it comes to hosting. The free tier has and will always remain free. There is no advertising and we don't sell your data so how does GearHost make money on the free tier? It's simple, we don't. We offer this tier at a loss in hopes that one day you'll become a paid hosting customer as your application grows out of the free tier and needs to be upgraded to Standard or Reserved. When that time comes you can scale your application instantly with a single click and no downtime.
+### In with the new
+While it's completely realistic for any company to charge for a service they offer it's all about what you're getting. It's the same idea of going to a restaurant and getting free chips and salsa, free bread, etc. The fact is if you have a pretty active site or need a good amount of resources you'll be on the GearHost platform. There isn't anyone better but what about all the other low resource sites you have for family, friends, small businesses, etc? Wouldn't it be great if you could host those for free on the same cloud as your large scale sites? We thought so too!
 
-### Anything else?
-We've upgraded all of the plans (Free, Standard and Reserved) to allow 600% more in allowed connections and 900% more in allowed threads. In fact the numbers now are so large for allowed connections and threads we removed them from the plan details as they no longer measured but in place to ensure application integrity on the worker nodes. We have increased processing and memory allocations by 200% as well across all plans.
+### It's all about the details
+The new free tier plan contains a good amount of resources for low usage sites. It's noteworth to point out however that the free tier is not on some servers we've set aside because it's "free", this is in the same cloud as your Standard and Reserved CloudSite apps and has the same quality of service for uptime, performance and features. We only limit the actual resource usage. Here are the details:
 
-### Like the changes?
-Tell us about it via [Twitter](https://twitter.com/gearhost) or [Facebook](https://www.facebook.com/gearhost). We'd love to hear what you think!
+- ***Custom Domains***
+- ***Shared** Web Node*
+- ***1** Max Worker*
+- ***256MB** Application Pool*
+- ***5%** CPU Usage, **25%** burst for up to 5 min allowed*
+- ***1GB** Bandwidth /mo.*
+- ***100MB** SSD Storage*
+
+In addition each GearHost account is allowed up to 100 Free CloudSite applications and 100 free databases but you will have to verify your account first. Without verification the limit is set to 5 free tier applications and databases.
+
+### How does it affect me?
+If you have been great! If not we encourage you to take it for a spin. Run a WordPress site, an MVC application you've been playing around with, a friends site, etc. And as always share the love on Twitter [@gearhost](https://twitter.com/gearhost).
+
+By: [Ryan Kekos](https://twitter.com/ryankekos)
