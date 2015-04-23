@@ -12,13 +12,13 @@ While it's completely realistic for any company to charge for a service they off
 ### It's all about the details
 The new free tier plan contains a good amount of resources for low usage sites. It's noteworth to point out however that the free tier is not on some servers we've set aside because it's "free", this is in the same cloud as your Standard and Reserved CloudSite apps and has the same quality of service for uptime, performance and features. We only limit the actual resource usage. Here are the details:
 
-- ***Custom Domains***
-- ***Shared** Web Node*
-- ***1** Max Worker*
-- ***256MB** Application Pool*
-- ***5%** CPU Usage, **25%** burst for up to 5 min allowed*
-- ***1GB** Bandwidth /mo.*
-- ***100MB** SSD Storage*
+- **_Custom Domains_**
+- **_Shared** Web Node_
+- **_1** Max Worker_
+- **_256MB** Application Pool_
+- **_5%** CPU Usage, **25%** burst for up to 5 min allowed_
+- **_1GB** Bandwidth /mo._
+- **_100MB** SSD Storage_
 
 In addition each GearHost account is allowed up to 100 Free CloudSite applications and 100 free databases but you will have to verify your account first. Without verification the limit is set to 5 free tier applications and databases.
 
