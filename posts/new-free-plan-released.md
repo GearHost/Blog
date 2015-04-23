@@ -10,7 +10,7 @@ We launched GearHost with a free tier originally to offer developers the ability
 While it's completely realistic for any company to charge for a service/product they offer it's all about what you're getting in return. It's the same idea of going to a restaurant and getting free chips and salsa, free bread, etc. These tiny hand outs build loyalty and something consumers enjoy, usually. While it's a bit off topic the idea applies to GearHost. We know you are coming to us to host your awesome large apps and sites. It's simple we're the best .NET and PHP cloud host out there but while you're here wouldn't it be great if we could allow you to host your low resource based sites and better yet for free. After all, these sites are not consuming a ton of resources. Well that's exactly what we thought too :)
 
 ### It's all about the details
-The new free tier plan contains a good amount of resources for low usage sites. It's noteworthy to point out that the free tier is in the same cloud as your Standard and Reserved CloudSite apps and includes the same quality of service for uptime, performance, features and support. We only limit the actual resource usage. Here are the details:
+The new free tier plan contains a good amount of resources for low usage sites. It's noteworthy to point out that the free tier is in the same cloud as your [Standard and Reserved](https://www.gearhost.com/pricing) CloudSite apps and includes the same quality of service for uptime, performance, features and support. We only limit the actual resource usage. Here are the details:
 
 - **Custom Domains**
 - **Shared** Web Node
