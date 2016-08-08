@@ -17,7 +17,7 @@ So let's take a look deeper look at the [GitHub repo](https://github.com/GearHos
 This base file contains all the metadata for all articles that we display in JSON. It contains items such as the id, date, title, summary, author, etc.
 
 ###\posts
-This contains all the blog posts formatted as markdown files with a .md extension. Posts are published to GearHost in the path https://www.gearhost.com/company/blog/{article-name-without-md}.
+This contains all the blog posts formatted as markdown files with a .md extension. Posts are published to GearHost in the path `https://www.gearhost.com/company/blog/{article-name-without-md}`.
 
 * **Post filenames:** Are formatted by the post name, such as *lets-do-this*. We use all lowercase letters and dashes (-) to separate the words.
 
