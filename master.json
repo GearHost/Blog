@@ -1,6 +1,13 @@
 {
   "posts": [
     {
+      "id": "lets-encrypt",
+      "date": "February 16th, 2017",
+      "title": "Introducting Let's Encrypt Certs",
+      "img": "https://raw.githubusercontent.com/GearHost/blog/master/posts/media/lets-encrypt/header.png",
+      "summary": "Hooray! Let's Encrypt support is now public and available on all Hobby and up CloudSite applications! Let's Encrypt is a little different than most SSL certificate providers. For starters it's free!"
+    },
+    {
       "id": "bitcoin-payments-welcome",
       "date": "August 1st, 2016",
       "title": "Bitcoin Payments Welcome",
