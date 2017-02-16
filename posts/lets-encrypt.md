@@ -9,6 +9,6 @@ There is one small catch. While the certs issued are completely automated and fr
 To enable a Let's Encrypt certificate on your CloudSite simply log in to your GearHost control panel and goto the Certificates menu. From there click Create Certificate and follow the wizard. This process takes about 5 minutes or less.
 
 ###Thanks
-Your feedback is what drives us at GearHost so we want to give a special thanks to those who [up-voted this suggestion](https://gearhost.uservoice.com/forums/147522-gearhost/suggestions/14816673-ssl-let-s-encrypt). Keep your ideas coming and we'll keep implementing them.Thanks again and enjoy!
+Your feedback is what drives us at GearHost so we want to give a special thanks to those who [up-voted this suggestion](https://gearhost.uservoice.com/forums/147522-gearhost/suggestions/14816673-ssl-let-s-encrypt). Keep your ideas coming and we'll make sure to keep implementing them. Thanks again and enjoy!
 
 By: [Ryan Kekos](https://twitter.com/ryankekos)
