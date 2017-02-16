@@ -5,7 +5,7 @@
       "date": "February 16th, 2017",
       "title": "Introducting Let's Encrypt Certs",
       "img": "https://raw.githubusercontent.com/GearHost/blog/master/posts/media/lets-encrypt/header.png",
-      "summary": "Hooray! Let's Encrypt support is now public and available on all Hobby and up CloudSite applications! Let's Encrypt is a little different than most SSL certificate providers. For starters it's free!"
+      "summary": "Hooray! After much feedback Let's Encrypt support is now public and available on all Hobby and up CloudSite applications! Let's Encrypt is a little different than most SSL certificate providers. For starters it's free! Launched in April 2016 Let's Encrypt offers free X.509 certificates via an automated process designed to eliminate the current complex process of manual creation, validation, signing, installation, and renewal of certificates for secure websites."
     },
     {
       "id": "bitcoin-payments-welcome",
