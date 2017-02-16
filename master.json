@@ -10,6 +10,7 @@
     {
       "id": "bitcoin-payments-welcome",
       "date": "August 1st, 2016",
+      "dateUpdated": "2016-08-01T12:00:00Z",
       "title": "Bitcoin Payments Welcome",
       "img": "https://raw.githubusercontent.com/GearHost/blog/master/posts/media/bitcoin-payments-welcome/header.png",
       "summary": "We are excited to be part of the growing bitcoin community! Through our partnership with Coinbase, GearHost now accepts bitcoin payments for cloud hosting services! This is in combination with our already existing credit card and PayPal payments."
@@ -17,6 +18,7 @@
     {
       "id": "new-free-plan-released",
       "date": "April 23, 2015",
+      "dateUpdated": "2015-04-23T12:00:00Z",
       "title": "New Free Plan Released",
       "img": "https://raw.githubusercontent.com/GearHost/blog/master/posts/media/new-free-plan-released/header.png",
       "summary": "We're happy to announce the release of our all new Free CloudSite plan. This plan boasts a ton of new features and improvements making it bigger, better, faster and also gluten free. But why the change? Let's get into the thought process behind that, how we designed the new plan, what it has to offer and how it affects you."
@@ -24,6 +26,7 @@
     {
       "id": "making-a-homegrown-blog",
       "date": "April 15, 2015",
+      "dateUpdated": "2015-04-15T12:00:00Z",
       "title": "Making a Homegrown Blog",
       "img": "https://raw.githubusercontent.com/GearHost/blog/master/posts/media/making-a-homegrown-blog/header.png",
       "summary": "At GearHost things are moving faster than ever. In an effort to keep more in touch with you and keeping GearHost transparent we've built a pretty simply yet snazzy blog platform. Instead of writing our first blog post about it being just that, our first blog post (boring!), I figured it could be about how we build this blog platform (that's cool!)."
