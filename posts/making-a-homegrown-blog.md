@@ -4,7 +4,7 @@ One of the main features of GearHost as a whole is to make very complex and adva
 
 > BTW all those platforms I mentioned above can be one click installed on a CloudSite for free if you haven't tried already. [Just signup for free and create a blog in seconds.](https://my.gearhost.com/account/signup)
 
-###Getting Started
+### Getting Started
 We knew we wanted to use markdown for the blog posts so the objective was to find an easy way to collaborate the markdown files between employees and even contributors from the community and the blog platform. We actually already do this currently with our [Documentation](https://www.gearhost.com/documentation) by leveraging GitHub and their API. Okay, that was easy. Check.
 
 The next problem is graphics. Not some cheesy graphics but something that tells the blog story by a picture, something catchy. I went to our designers and had them put together some concept ideas. They came back with what I thought was some impressive creative, and quick at that. Check.
@@ -13,20 +13,20 @@ Finally was putting all these small moving parts into a blog. I got with the dev
 
 So let's take a look deeper look at the [GitHub repo](https://github.com/GearHost/blog). Here's our directory structure and some important files that make this work.
 
-###\master.json
+### \master.json
 This base file contains all the metadata for all articles that we display in JSON. It contains items such as the id, date, title, summary, author, etc.
 
-###\posts
+### \posts
 This contains all the blog posts formatted as markdown files with a .md extension. Posts are published to GearHost in the path `https://www.gearhost.com/company/blog/{article-name-without-md}`.
 
 * **Post filenames:** Are formatted by the post name, such as *lets-do-this*. We use all lowercase letters and dashes (-) to separate the words.
 
 * **Media subfolders:** The \posts folder contains the \media folder, inside which are subfolders with the images for each article including the header graphic. The post image folders are name identically to the article file, minus the *.md* file extension.
 
-###\project
+### \project
 This will contain all the source code we used to build the GearHost blog so you can make your own version as well.
 
-###Parsing GitHub markdown to HTML
+### Parsing GitHub markdown to HTML
 So the next step is to get the markdown file from GitHub then parse it. Using the [GitHub API](https://developer.github.com/v3/) we can download the markdown directly. We built a GitHubHelper class that facilitates this and other functions. Anyway here are some simple bits on how we did it:
 
 ```C#
